@@ -1,0 +1,43 @@
+.home{
+  width: 360px;
+}
+/* StoryUI Css */
+.storyUI-btns .stroy-btn {
+  width: 50px;
+  margin:5px;
+  height: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+
+  border-top: 1px solid rgb(133, 25, 155);
+  border-right: 1px solid green;
+  border-bottom: 1px solid red;
+  border-left: 1px solid rgb(190, 93, 13);
+  background: url('../src/assets/images/profile1.avif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.storyUI-btns #create-story {
+  transform: translate(1px, -17px);
+  
+}
+.storyUI-btns #create-story #create-btn{
+border: none;
+transform: translate(23px, 10px);
+border-radius: 10px;
+text-align: center;
+display: flex;
+background: transparent;
+width: 100%;
+justify-content: center;
+align-items: center;
+}
+.stroy-btn img{
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
